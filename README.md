@@ -11,7 +11,7 @@ user response to several prompts.
   password request.
 
 * Prompt user to include at least one of the following character sets:
-    Special Characters - '!@#$%^&*()-+'
+    Special Characters - '!#$%&()*+,-./:;<=>?@[\]^_`{|}~'
     Uppercase Characters - 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     Lowercase Characters - 'abcdefghijklmnopqrstuvwxyz0123456789'
     Numbers - '0123456789'
