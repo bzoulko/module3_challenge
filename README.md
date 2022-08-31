@@ -20,7 +20,7 @@ user response to several prompts.
     from window prompts.
 
 
-### Spoecial Notes:
+### Special Notes:
 1. Modified application supplied to us as part of module 3 challenge in this bootcamp.
 
 2. Included "reset.css" to this project.
