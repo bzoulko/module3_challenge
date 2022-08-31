@@ -16,7 +16,8 @@ user response to several prompts.
     Lowercase Characters - 'abcdefghijklmnopqrstuvwxyz0123456789'
     Numbers - '0123456789'
 
-    ALERT message will be displayed if no character set is included.
+    ALERT message will be displayed if no character set is included via users response 
+    from window prompts.
 
 
 ### Spoecial Notes:
