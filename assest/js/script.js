@@ -48,7 +48,7 @@ function getCharacterSet() {
   chList     += (confirm("Include Lowercase Characters?") ? 'abcdefghijklmnopqrstuvwxyz0123456789' : '');
   chList     += (confirm("Include Numbers?")              ? '0123456789' : '');
   return (chList);
-} 
+}
 
 
 /* ******************************************************
