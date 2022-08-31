@@ -32,4 +32,7 @@ user response to several prompts.
 4. Wrote several functions to produce the desired results.
 
 5. Commented modules to help with future enhancements.
+
+6. Link to Deployed App:  https://bzoulko.github.io/module3_challenge/
+
 ![image](https://user-images.githubusercontent.com/108200823/187712546-359d59f5-5873-4b7b-a83d-3bd8a72dcbfd.png)
