@@ -43,7 +43,7 @@ function generatePassword() {
   RETURN: List of character set(s) selected.
 ***************************************************** */
 function getCharacterSet() {
-  var chList  = (confirm("Include Special Characters?")   ? '!@#$%^&*()-+' : '');
+  var chList  = (confirm("Include Special Characters?")   ? '!#$%&()*+,-./:;<=>?@[\]^_`{|}~' : '');
   chList     += (confirm("Include Uppercase Characters?") ? 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' : '');
   chList     += (confirm("Include Lowercase Characters?") ? 'abcdefghijklmnopqrstuvwxyz0123456789' : '');
   chList     += (confirm("Include Numbers?")              ? '0123456789' : '');
