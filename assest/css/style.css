@@ -1,3 +1,12 @@
+/*
+    Notes:      Module assists in a standard password generator design, look and feel.
+    
+    Modification
+    ============
+    08/29/20022 Brian Zoulko    Added features to make the passord generator look like the mock-up.
+
+*/
+
 *,
 *::before,
 *::after {
@@ -23,6 +32,22 @@ body {
   padding-right: 20px;
 }
 
+/* 08/29/22 - Added font specs based on mock-up */
+h1 {
+  font-size: 30px;
+}
+
+/* 08/29/22 - Added font specs based on mock-up */
+h2 {
+  font-size: 25px;
+}
+
+/* 08/29/22 - Added font specs based on mock-up */
+.pswd-title {
+  font-weight: bolder;
+  color: black;
+}
+
 header {
   text-align: center;
   padding: 20px;
@@ -34,7 +59,7 @@ header {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px; 
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
@@ -71,13 +96,12 @@ header {
   display: block;
   clear: both;
 }
-
+ 
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -86,6 +110,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  border-radius: 30px;      /* 08/30/22 - Added based on mock-up model. */
 }
 
 button[disabled] {

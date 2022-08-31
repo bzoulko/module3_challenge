@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assest/css/reset.css" />
+    <link rel="stylesheet" href="./assest/css/style.css" />
   </head>
+  
   <body>
+
     <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
+    
+      <header>        
+        <!-- 08/29/22 - Added class 'pswd-title', font adjustment based on mock-up. -->
+        <h1 class="pswd-title">Password Generator</h1>
       </header>
+ 
       <div class="card">
+ 
         <div class="card-header">
-          <h2>Generate a Password</h2>
+          <!-- 08/29/22 - Added class 'pswd-title', font adjustment based on mock-up. -->
+          <h2 class="pswd-title">Generate a Password</h2>
         </div>
+ 
         <div class="card-body">
           <textarea
             readonly
@@ -24,11 +34,16 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+ 
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
+ 
       </div>
+
     </div>
-    <script src="script.js"></script>
+ 
+    <script src="./assest/js/script.js"></script>
+
   </body>
 </html>
