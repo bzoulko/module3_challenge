@@ -11,7 +11,7 @@ user response to several prompts.
   password request.
 
 * Prompt user to include at least one of the following character sets:
-    Special Characters - '!@#$%^&*()-+'
+    Special Characters - '!#$%&()*+,-./:;<=>?@[\]^_`{|}~'
     Uppercase Characters - 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     Lowercase Characters - 'abcdefghijklmnopqrstuvwxyz0123456789'
     Numbers - '0123456789'
@@ -32,3 +32,4 @@ user response to several prompts.
 4. Wrote several functions to produce the desired results.
 
 5. Commented modules to help with future enhancements.
+![image](https://user-images.githubusercontent.com/108200823/187712546-359d59f5-5873-4b7b-a83d-3bd8a72dcbfd.png)
